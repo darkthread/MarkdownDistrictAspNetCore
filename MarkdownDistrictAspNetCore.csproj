@@ -5,7 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+	
+  <ItemGroup>
+    <Content Include="HelpDoc\**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+	
   <ItemGroup>
     <PackageReference Include="Markdig" Version="0.30.2" />
   </ItemGroup>
